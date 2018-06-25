@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_mensaje_dificultad"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@color/cafeSuah"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:text="DIFICULTAD"
+        android:textAlignment="center"
+        android:textStyle="normal"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/facil"
+        style="@style/botonesDificultad"
+
+
+
+        android:text="facil"
+        android:onClick="botones"
+
+        />
+    <Button
+        android:id="@+id/medio"
+        style="@style/botonesDificultad"
+
+
+        android:text="medio"
+        android:onClick="botones"
+
+        />
+    <Button
+        android:id="@+id/dificil"
+        style="@style/botonesDificultad"
+
+        android:text="dificil"
+        android:onClick="botones"
+
+        />
+
+
+
+</LinearLayout>
