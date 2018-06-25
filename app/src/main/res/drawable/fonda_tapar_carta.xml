@@ -44,7 +44,7 @@
         android:height="50dp"
         android:width="40dp"
         android:gravity="center"
-        android:drawable="@drawable/logo_ws2"
+        android:drawable="@drawable/logo_waa_carta"
 
         >
 
